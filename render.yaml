@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: python-runner
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    plan: free
